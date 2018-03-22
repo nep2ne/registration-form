@@ -23,11 +23,11 @@ h1 {
 }
 
 .padding-right {
-  padding-right: 0.75em;
+  padding-right: .75em;
 }
 
 .padding-left {
-  padding-left: 0.75em;
+  padding-left: .75em;
 }
 
 @media only screen and (min-width: 60em) {
