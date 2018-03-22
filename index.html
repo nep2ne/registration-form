@@ -23,24 +23,24 @@
         <fieldset class="push">
           <legend class="italic giga not-bold push-1-2">Personal details</legend>
           <div class="grid">
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 padding-right">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 padding-right push">
               <label for="name">Name</label>
-              <input id="name" class="push" required>
+              <input id="name" name="name" required>
             </div>
 
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 push padding-left">
               <label for="age">Age</label>
-              <input id="age" class="push">
+              <input id="age" name="age">
             </div>
 
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 padding-right">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 padding-right push">
               <label for="email">Email</label>
-              <input id="email" class="push" required>
+              <input id="email" name="email" required>
             </div>
 
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 padding-left push">
               <label for="fitness-level">Physical fitness</label>
-              <select id="fitness-level" class="push">
+              <select id="fitness-level" name="fitness-level">
                 <option>Super-human</option>
                 <option>Fit as a fiddle</option>
                 <option>Not terribly strong</option>
@@ -50,13 +50,13 @@
           </div>
 
           <label for="address">Address</label>
-          <textarea id="address"></textarea>
+          <textarea id="address" name="address"></textarea>
         </fieldset>
 
         <fieldset>
           <legend class="italic push giga not-bold">Mission statement</legend>
           <label for="message">Why do you want to go to Mars?</label>
-          <textarea id="message"></textarea>
+          <textarea id="message" name="message"></textarea>
         </fieldset>
 
         <div class="text-center">
