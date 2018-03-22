@@ -8,11 +8,12 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700" rel="stylesheet">
 
 </head>
 <body>
 
-  <section>
+  <section class="gutter pad-t-2 pad-b-2">
     <div class="max-length">
       <h1>Want to go to Mars?</h1>
       <hr>
@@ -20,19 +21,19 @@
       <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
 
       <form action="thanks.html" method="POST">
-        <fieldset>
+        <fieldset class="push">
           <legend class="italic">Personal details</legend>
           <label for="name">Name</label>
-          <input id="name">
+          <input id="name" class="push">
 
           <label for="age">Age</label>
-          <input id="age">
+          <input id="age" class="push">
 
           <label for="email">Email</label>
-          <input id="email">
+          <input id="email" class="push">
 
           <label for="fitness-level">Physical fitness</label>
-          <select id="fitness-level">
+          <select id="fitness-level" class="push">
             <option>Super-human</option>
             <option>Fit as a fiddle</option>
             <option>Not terribly strong</option>
@@ -44,13 +45,18 @@
         </fieldset>
 
         <fieldset>
-          <legend class="italic">Mission statement</legend>
+          <legend class="italic push">Mission statement</legend>
           <label for="message">Why do you want to go to Mars?</label>
           <textarea id="message"></textarea>
         </fieldset>
 
-        <div>
+        <div class="text-center">
           <button type="register">Register for the trip!</button>
+        </div>
+
+        <div>
+          <input type="hidden" name="_subject" value="Request to join the mission">
+        </div>
       </form>
     </div>
   </section>
