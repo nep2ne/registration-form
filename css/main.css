@@ -1,3 +1,36 @@
 html {
   font-family: "Open Sans", sans-serif;
 }
+
+body {
+  background-color: #f2f2f2;
+}
+
+section {
+  background-color: #fff;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+}
+
+.btn {
+  background-color: #000;
+}
+
+.btn:hover {
+  background-color: #f2f2f2;
+}
+
+.padding-right {
+  padding-right: 1.5em;
+}
+
+@media only screen and (min-width: 60em) {
+
+section {
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+}
